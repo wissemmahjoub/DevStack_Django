@@ -1,0 +1,146 @@
+{
+    "access": {
+        "metadata": {
+            "is_admin": 0,
+            "roles": [
+                "08a8a8f35534486aadfc33056221094c"
+            ]
+        },
+        "serviceCatalog": [
+            {
+                "endpoints": [
+                    {
+                        "id": "9613faba8faa4a55a8f9e14214ce9c6b",
+                        "publicURL": "http://127.0.0.1/placement",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "placement",
+                "type": "placement"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "a030dbcf4a9f4806ae3e31354611579e",
+                        "publicURL": "http://127.0.0.1:9696/",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "neutron",
+                "type": "network"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "f74397d19f9a48598db052584e2a27b1",
+                        "publicURL": "http://127.0.0.1:8776/v2/d6b6027c0bef4890a90b365b860dd502",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "cinderv2",
+                "type": "volumev2"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "26df3193f8674e069c40fa7eeddaa583",
+                        "publicURL": "http://127.0.0.1:8776/v3/d6b6027c0bef4890a90b365b860dd502",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "cinderv3",
+                "type": "volumev3"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "9fa56374ffbc4d1ba04fd0f50feae351",
+                        "publicURL": "http://127.0.0.1:9292",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "glance",
+                "type": "image"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "4d2ab78a889a4225a247c4ccfd050376",
+                        "publicURL": "http://127.0.0.1:8774/v2/d6b6027c0bef4890a90b365b860dd502",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "nova_legacy",
+                "type": "compute_legacy"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "25b413a5a4f544a1ba6a65a9bcec21ae",
+                        "publicURL": "http://127.0.0.1:8776/v1/d6b6027c0bef4890a90b365b860dd502",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "cinder",
+                "type": "volume"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "a2b88afe25a5499a996b89792b35ed02",
+                        "publicURL": "http://127.0.0.1:8774/v2.1",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "nova",
+                "type": "compute"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://127.0.0.1/identity_admin",
+                        "id": "9e8f68a6d06a4eabad33704c2706e20b",
+                        "publicURL": "http://127.0.0.1/identity",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "keystone",
+                "type": "identity"
+            }
+        ],
+        "token": {
+            "audit_ids": [
+                "IXWF6eq3Q6-LvBYZUuQ6wg"
+            ],
+            "expires": "2017-05-13T08:45:57.000000Z",
+            "id": "gAAAAABZFrm1X2QqpSqGsxZcE0o0anTEHHockWFQQTyFiC8wlIHaRs5v6o8y0rQ21Xk_n6C_qnfn4FxhVYfpOAy10e0baWUyBQWlPQmmY8-d8PAcniJnbqOuMF9Fcb8MKlLZWdah6h8uNKr3f6vmNi3pbzImNFfXyQACMycqDBMAP1NyAT74Bis",
+            "issued_at": "2017-05-13T07:45:57.000000Z",
+            "tenant": {
+                "description": "Bootstrap project for initializing the cloud.",
+                "enabled": true,
+                "id": "d6b6027c0bef4890a90b365b860dd502",
+                "name": "admin"
+            }
+        },
+        "user": {
+            "id": "68a3398f54b24decbf1db393c1f3f433",
+            "name": "admin",
+            "roles": [
+                {
+                    "name": "admin"
+                }
+            ],
+            "roles_links": [],
+            "username": "admin"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+HTTP/1.1 201 Created
+Content-Length: 592
+Content-Type: application/json
+Location: http://192.168.1.16:9292/v2/images/4cafff0f-be40-4cb5-9044-28c2ad0d0fa1
+X-Openstack-Request-Id: req-2329540f-59aa-4de1-9647-eeb753f30f82
+Date: Sat, 13 May 2017 04:23:38 GMT
+
+{"status": "queued", "name": "ChamsDjangooa", "tags": ["cirrosCHEMSapi", "14.04", "trusty"], "container_format": "bare", "created_at": "2017-05-13T04:23:35Z", "size": null, "disk_format": "qcow2", "updated_at": "2017-05-13T04:23:35Z", "visibility": "public", "self": "/v2/images/4cafff0f-be40-4cb5-9044-28c2ad0d0fa1", "min_disk": 0, "protected": false, "id": "4cafff0f-be40-4cb5-9044-28c2ad0d0fa1", "file": "/v2/images/4cafff0f-be40-4cb5-9044-28c2ad0d0fa1/file", "checksum": null, "owner": "93f51b90f2a54e39a39655eff981c7f1", "virtual_size": null, "min_ram": 0, "schema": "/v2/schemas/image"}

@@ -1,0 +1,55 @@
+{% extends 'temp.html' %}
+
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+{% block body %}
+
+    <div class="col-sm-9">
+<form  action="" method="POST">
+    {% csrf_token %}
+
+    <input  type="submit" value="Lister" />
+</form>
+
+<br><br>
+
+
+<!-- TOKEN :  <br> {{res}}<br> -->
+<b>LISTE OF VOLUMES</b><br>
+<table border="2">
+    <tr>
+          <td>  volume name </td>   <td>{{ volumename }} </td>
+    </tr>
+    <tr>
+       <td>volume status  </td>   <td>{{ volumestatus }} </td>
+    </tr>
+    <tr>
+   <td>volume size </td> <td>{{ volumesize }}</td>
+    </tr>
+    <tr>
+    <td>volume description </td><td> {{ volumedescription }}</td>
+     </tr>
+    <tr>
+    <td>volume date </td><td> {{ volumedate }}</td>
+    </tr>
+
+    </table>
+    <a href="{% url 'blog.views.addvolume' %}">Add volume</a>
+
+ </div>
+</div>
+</div>
+
+{% endblock %}
+
+</body>
+</html>
